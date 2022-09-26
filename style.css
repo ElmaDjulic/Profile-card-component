@@ -1,0 +1,71 @@
+body{
+font-family: 'Kumbh Sans', sans-serif;
+background-color: 	#19a2ae;
+
+}
+.slika{
+  border-radius:100px;
+  position:absolute;
+  top:65px;
+  left:100px;
+}
+.card-body{
+  text-align:center;
+}
+.num{
+color:#6a6f81;
+font-weight:400;
+padding-left:2px;
+}
+.bordless{
+border-style: none;
+}
+.naslov{
+  padding-top:50px;
+  font-size:18px;
+  font-weight: 700;
+  color:	#2d3248;
+}
+.naslov2{
+  font-size:18px;
+  font-weight: 700;
+  color:	#2d3248;
+}
+.opisi{
+  color:	#969696;
+  letter-spacing: 1px;
+  font-size:12px;
+}
+.container-fluid{
+  position:fixed;
+  left:30%;
+ bottom:15%;
+}
+.top{
+  position:absolute;
+  right:60%;
+  bottom:55%;
+}
+.dolje{
+   position:absolute;
+   top:52%;
+   left:50%;
+
+}
+@media screen and (max-width: 768px) {
+  .container-fluid{
+  left:10%;
+  bottom:12%;
+  width:100%;
+  }
+  .top{
+    bottom:80%;
+
+    width:100%;
+  }
+  .dolje{
+top:60%;
+right:10%;
+width:100%;
+  }
+}
